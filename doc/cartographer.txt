@@ -1,0 +1,25 @@
+*cartographer.txt* .NET solution explorer for Neovim
+
+====================================================================================
+1. Getting Started                                    *cartographer-getting-started*
+
+
+REQUIREMENTS                             *cartographer-getting-started-requirements*
+
+Cartographer requires Neovim v0.11 and folke/snacks.nvim
+
+INSTALLATION                             *cartographer-getting-started-installation*
+
+Install this plugin using your plugin manager.
+
+LAZY ~
+
+>lua
+    {
+      "xunafay/dotnet.cartographer.nvim",
+      opts = {
+        -- your options
+      }
+    }
+<
+
